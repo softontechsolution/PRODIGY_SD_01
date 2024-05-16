@@ -30,22 +30,27 @@
                 <div class="result">
                     <span class="result-heading">Result (Celsius)</span>
                     <h2 class="celsius-value" id="celsius">10</h2>
+                    <span class="result-heading">Result (Kelvin)</span>
+                    <h2 class="kelvin-value" id="kelvin">10</h2>
+                    <span class="result-heading">Result (Fahrenheit)</span>
+                    <h2 class="fahrenheit-value" id="fahrenheit">10</h2>
                 </div>
  
                 <!-- Input Field -->
                 <div class="degree-type">
                     <!-- for degree-->
                     <div class="degree-field">
-                        <label for="degree">Degrees</label>
+                        <label for="degree">Enter Value</label>
                         <input type="number" name="degree" id="degree">
                     </div>
 
                     <!-- for option selection -->
                     <div class="temp-field">
-                        <label for="temp-type">Types</label>
+                        <label for="temp-type">Select Types</label>
                         <select name="temperatures" id="temp-type" autocomplete="on">
                             <option value="fahrenheit" id="fahrenheit">Fahrenheit</option>
                             <option value="kelvin" id="kelvin">Kelvin</option>
+                            <option value="celsius" id="celsius">Celsius</option>
                         </select>
                     </div>
                 </div>
